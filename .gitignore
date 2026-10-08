@@ -1,0 +1,39 @@
+# Ambientes virtuais e caches Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Segredos e credenciais locais
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+credentials*.json
+service-account*.json
+service_account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Arquivos temporários, logs e resíduos do sistema
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.tmp/
+tmp/
+.DS_Store
+Thumbs.db
+Desktop.ini
